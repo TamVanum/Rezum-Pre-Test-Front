@@ -50,12 +50,13 @@ function CombinedForm() {
       familiar_problemas_prostata: false,
       familiar_directo_cancer: false,
       biopsia_prostata_cantidad: 2,
-      paciente_id: 4,
-      medicamentos_generales: [],
-      medicamentos_prostata: [],
-      enfermedades_neurologicas: [],
-      enfermedades_preoperatorio: [],
-      cirugias_existentes_preoperatorio: [],
+      paciente_id: 1,
+      fecha_operacion: "2024-02-23",
+      medicamentos_generales: [1,2,3],
+      medicamentos_prostata: [1,2],
+      enfermedades_neurologicas: [2],
+      enfermedades_preoperatorio: [1,2],
+      cirugias_existentes_preoperatorio: [1,2],
   })
 
   const [archivos, setArchivos] = useState([]);
